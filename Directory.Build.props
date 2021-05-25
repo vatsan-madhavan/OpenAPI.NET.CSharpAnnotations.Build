@@ -6,8 +6,9 @@
 		<!-- Embed source files that are not tracked by the source control manager in the PDB -->
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
 
-		<!-- Recommended: Embed symbols containing Source Link in the main file (exe/dll) -->
-		<DebugType>embedded</DebugType>
+		<!-- Product .snupkg file containing PDB's for publishing to NuGet -->
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 	</PropertyGroup>
 
 	<!-- Deterministic builds -->
