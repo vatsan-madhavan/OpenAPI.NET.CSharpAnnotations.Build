@@ -16,5 +16,7 @@
 
 	<PropertyGroup>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Authors>Vatsan Madhavan</Authors>
 	</PropertyGroup>
 </Project>
