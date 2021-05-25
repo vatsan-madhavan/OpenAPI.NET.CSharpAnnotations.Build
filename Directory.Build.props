@@ -9,6 +9,8 @@
 		<!-- Product .snupkg file containing PDB's for publishing to NuGet -->
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+		<Authors>Vatsan Madhavan</Authors>
 	</PropertyGroup>
 
 	<!-- Deterministic builds -->
